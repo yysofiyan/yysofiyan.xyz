@@ -9,7 +9,7 @@ Personal website running on Gatsby, React, and Node.js.
 Run local server:
 
 ```bash
-git clone https://github.com/taniarascia/taniarascia.com
+git clone https://github.com/yysofiyan
 cd taniarascia.com
 yarn
 yarn run dev
@@ -38,7 +38,7 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 
 ## Author
 
-- [Tania Rascia](https://www.taniarascia.com)
+- Thanks To : [Tania Rascia](https://www.taniarascia.com)
 
 ## License
 
