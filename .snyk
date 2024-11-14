@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -112,3 +112,11 @@ patch:
         patched: '2020-05-01T02:26:37.993Z'
     - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
         patched: '2020-05-01T02:26:37.993Z'
+    - gatsby > @graphql-codegen/typescript > @graphql-codegen/visitor-plugin-common > @graphql-tools/relay-operation-optimizer > @ardatan/relay-compiler > @babel/types > lodash:
+        patched: '2024-11-14T13:02:59.668Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @graphql-codegen/typescript >
+          @graphql-codegen/visitor-plugin-common >
+          @graphql-tools/relay-operation-optimizer > @ardatan/relay-compiler >
+          @babel/types > lodash
