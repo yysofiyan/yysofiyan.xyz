@@ -16,7 +16,7 @@
     "gatsby-plugin-offline": "^2.2.1",
     "gatsby-plugin-react-helmet": "3.1.0",
     "gatsby-plugin-sass": "^2.0.10",
-    "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-plugin-sharp": "^4.22.0",
     "gatsby-plugin-sitemap": "2.2.1",
     "gatsby-plugin-twitter": "^2.0.13",
     "gatsby-plugin-typography": "^2.2.10",
@@ -24,7 +24,7 @@
     "gatsby-remark-copy-linked-files": "^2.1.0",
     "gatsby-remark-images": "3.1.3",
     "gatsby-remark-prismjs": "3.3.1",
-    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-source-filesystem": "^2.1.16",
     "gatsby-transformer-remark": "2.6.2",
     "gatsby-transformer-sharp": "2.2.1",
     "lodash": "^4.17.13",
@@ -37,10 +37,10 @@
     "react-github-btn": "^1.0.5",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
-    "sharp": "^0.22.1",
+    "sharp": "^0.33.0",
     "typography": "^0.16.19",
     "url-join": "^4.0.0",
-    "snyk": "^1.316.1"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -83,7 +83,7 @@
     "write-good": "write-good $(glob 'content/posts/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
     "check": "npx npm-check-updates -u",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "remarkConfig": {
